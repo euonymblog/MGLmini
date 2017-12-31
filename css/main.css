@@ -1,0 +1,71 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  /*border: 1px solid pink;*/
+
+}
+
+h1 {
+  font-family: 'Life Savers', cursive;
+  font-size: 4rem;
+  color: firebrick;
+  text-decoration: bold;
+}
+
+h2, h3, h4 {
+  font-family: 'Dosis', sans-serif;
+}
+
+h5, h6, p, span {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  color: firebrick;
+}
+
+h3 {
+  font-size: 2rem;
+  color: firebrick;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+#heroImage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url('../images/laneway.png');
+  min-height: 70vh;
+  text-align: center;
+  padding: 7%;
+
+}
+
+#heroImage h2, h3 {
+  margin-top: 5%;
+}
+
+#facebook {
+  min-height: 40vh;
+}
+
+.social h4 {
+  margin: 3% 0 3% 0;
+}
+
+#photoCredit {
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+
+  #heroImage {
+    background-image: none;
+  }
+
+}
